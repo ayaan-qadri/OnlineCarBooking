@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Philosopher&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+html,body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/urus.jpg");
+    z-index: 200;
+}
+
+.text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.textbox {
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 250px;
+    width: 250px;
+    margin: 5px;
+    border: none;
+}
+
+.loginBtn {
+    background-color: #fff;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    padding: 3px 25px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: .8s;
+    margin-top: 2%;
+}
+
+.loginBtn:hover {
+    background: #ffffffac;
+    color: #050801;
+    box-shadow: 0 0 5px 6px #ffffff9d;
+}
+.forgetBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.forgetBox h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    z-index: 500;
+}
+
+.forgetBox .cancel {
+    font-size: xx-large;
+    position: absolute;
+    top: -30px;
+    left: 100%;
+}
+
+.forgetBox form {
+
+    background-color: #ffffff8e;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.forgetBox ul {
+    list-style: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.forgetBox li {
+    margin: 10px;
+}
+
+input[type=submit] {
+    display: none;
+
+}
+
+/* @ayaan */

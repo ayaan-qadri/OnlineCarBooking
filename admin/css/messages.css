@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+}
+
+body {
+    margin-left: 6vw;
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.messages
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card {
+    height: 250px;
+    width: 400px;
+    box-shadow: 0 0 2px 2px #00000070;
+    transition: .25s ease;
+    overflow: hidden;
+
+}
+
+.card:hover {
+    animation: shake 0.2s;
+    box-shadow: none;
+    border: 2px solid #00aaff;
+}
+
+.atDisplay {
+    position: relative;
+    top: 60%;
+    opacity: 1;
+    transition: .2s ease;
+    margin: 15px;
+}
+
+.card:hover .atDisplay {
+    opacity: 0;
+}
+
+.msg {
+    position: relative;
+    top: -35%;
+    left: 5%;
+    opacity: 0;
+    transition: .4s;
+}
+
+
+.msg span
+{
+    position: absolute;
+    width: 360px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #545454;
+}
+
+.card:hover .msg {
+    opacity: 1;
+    animation: shake .5s;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+/* @ayaan */

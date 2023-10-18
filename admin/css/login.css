@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Philosopher&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+html,
+body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/urus.jpg");
+}   
+
+.main {
+
+    /* background: linear-gradient(to top, #a8a4a4 0%, #dcdddf 52%, #a8a4a4 100%); */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:550px;
+    width:400px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.281);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+
+.userForm h2 {
+
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 5%;
+    letter-spacing: 2vw;
+
+}
+
+.userForm h3 {
+    position: relative;
+    bottom: 50px;
+    letter-spacing: 1vw;
+}
+
+.userForm h4 {
+    /* background: radial-gradient(circle, #ffffffb3, #ff000086 100%); */
+    position: absolute;
+    transform: translateX(-80px);
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background-color: #e7bd00;
+}
+
+.userForm h4 i {
+    letter-spacing: 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form p {
+    display: grid;
+    margin: 10px;
+}
+
+.text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.textbox {
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 250px;
+    width: 250px;
+    margin: 5px;
+    border: none;
+}
+
+.loginBtn {
+    background-color: #fff;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    padding: 3px 25px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: .8s;
+    margin-top: 2%;
+}
+
+.loginBtn:hover {
+    background: #ffffffac;
+    color: #050801;
+    box-shadow: 0 0 5px 6px #ffffff9d;
+}
+
+.forgetP {
+    position: relative;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+
+.forgetP a {
+
+    background-color: #00000000;
+    color: #000000;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.forgetP a:hover {
+    background: #ffffffac;
+    color: #050801;
+    box-shadow: 0 0 5px 6px #ffffff9d;
+}
+
+
+.fNf {
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+
+
+
+input[type=submit] {
+    display: none;
+
+}
+
+/* @ayaan */

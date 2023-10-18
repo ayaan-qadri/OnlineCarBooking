@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 6vw;
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.updateP {
+    box-shadow: 0 0 20px 5px #00000045;
+    height: 120px;
+    margin-top: 3%;
+    width: 90vw;
+    padding: 10px;;
+    overflow: hidden;
+}
+
+.updateP form {
+    position: relative;
+    top: 10%;
+}
+
+.updateP input[type=text] {
+    padding: 9px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    margin: 10px;
+}
+
+.updateP button {
+    background-color: #fff;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: large;
+}
+
+h4
+{
+    position: relative;
+    top: 10%;
+    left: 1%;
+}
+
+.userTable
+{
+    height: 400px;
+    margin-top: 3%;
+    width: 90vw;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.addUser
+{
+    margin-top: 10px;
+}
+table {
+    
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.headlineRow
+{
+    box-shadow: 0 0 4px 0 #000000ad; 
+    background-color: #c2c2c2;
+}
+
+th {
+    height: 55px;
+    width: auto;
+}
+
+.tableRow
+{
+    box-shadow: 0 0 9px 0 #00000045;
+    font-size: large;
+    height: 50px;
+    background-color: #fff;
+}
+td
+{
+    text-align: center;
+    transition: all 0.2s ease-out;
+    
+}
+
+.tableRow:hover td {
+    background-color: #9b9b9b;
+    color: #fff;
+}
+
+tr{
+    overflow: hidden;
+
+}
+
+.mainAddUser
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 400px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.276);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 100;
+    
+}
+
+.addUser h2 {
+
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.addUser form {
+    position: relative;
+    bottom: 10px;
+}
+
+.addUser form p {
+    display: grid;
+    margin: 10px;
+}
+
+.addUser .text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.addUser .textbox {
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 300px;
+    margin: 5px;
+    border: none;
+}
+
+.addUser .sendAddUser {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: .8s;
+    cursor:pointer;
+
+}
+
+.sendAddUser:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cancel:hover
+{
+    background-color: red;
+}
+
+input[type=submit],[type=none]
+{
+    display: none;
+}
+
+
+h5
+{
+    position: absolute;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+
+
+.removeBtn {
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: 0 0 5px 2px #00000028;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    letter-spacing: .25px;
+    padding: 2px 10px;;
+}
+
+.removeBtn:hover {
+    background: #F6F9FE;
+    color: #ff0000;
+}
+
+
+.addUserBtn
+{
+    width: 80px;
+    margin-top: 7px;
+}
+
+.addUserBtn:hover
+{
+    color: #00aaff;
+}
+
+.pagination
+{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:1%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.pagination li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.pagination a
+{
+    text-decoration: none;
+    margin: 5px;
+    color: #000;
+    font-size: xx-large;
+}
+
+.fa-angles-left:hover, .fa-angles-right:hover
+{
+    color: #ffffff;
+}
+/* @ayaan */
