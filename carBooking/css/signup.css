@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Philosopher&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+html,body {
+    background-image: url("../images/urus.jpg");
+}
+
+.main 
+{
+
+    /* background: linear-gradient(to top, #a8a4a4 0%, #dcdddf 52%, #a8a4a4 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 450px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.276);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.833);
+
+
+}
+
+.userForm h2 {
+
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.form {
+    position: relative;
+    bottom: 10px;
+    white-space: nowrap;
+}
+
+.form p {
+    display: grid;
+    margin: 10px;
+}
+
+.text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.textbox {
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 300px;
+    margin: 5px;
+    border: none;
+}
+
+.signupBtn {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: .8s;
+
+}
+
+.signupBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.reset {
+    position: absolute;
+    bottom:50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.reset a {
+
+    text-decoration: none;
+    color: #000;
+    transition: .4s;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.reset a:hover {
+    color: #ff0000;
+}
+
+input[type=submit]
+{
+    display: none;
+
+}
+
+h4 {
+    width: 450px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.276);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.833);
+    z-index: 200;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.regDone .done
+{
+    position: relative;
+    left: 10%;
+    font-size:5vw;
+    color: rgb(40, 188, 40);
+    background-color: #fff;
+    border-radius: 500px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 2px 2px #0000004a;
+}
+
+.regDone a
+{
+    position: absolute;
+    bottom: 30%;
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.regDone a:hover
+{
+    color: #545454;
+    text-shadow:3px 0 #00000078;
+}
+
+.doneBlock
+{
+    display: none;
+}
+
+.form h5
+{
+    position: absolute;
+    bottom:-90px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: larger;
+}
+
+/* @ayaan */

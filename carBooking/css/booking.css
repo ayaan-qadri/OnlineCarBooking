@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    margin: 2.5%;
+    background-color: #8a8a8a;
+    padding: 10px;
+    width: 18%;
+    color: #ffffff;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    text-transform: uppercase;
+}
+
+.list ul {
+    display: grid;
+}
+
+.list li {
+    display: flex;
+    height: 200px;
+    width: 70%;
+    margin: 15px;
+    list-style: none;
+    box-shadow: 0 0 15px 2px #00000041;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.list img {
+    height: 100%;
+    width: auto;
+}
+
+.list div {
+    margin: 20px;
+}
+
+.list h2 {
+    font-size: xx-large;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    text-transform: uppercase;
+}
+
+.list i {
+    font-size: 1vw;
+}
+
+.list p {
+    margin: 10px;
+    font-size: 1.2vw;
+}
+
+#booking {
+    padding: 15px 15px;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    right: 29%;
+    margin-top: 5px;
+}
+
+#booking:hover {
+    background: #7a7a7a;
+    color: #ffffff;
+    box-shadow: 0 0 5px #7a7a7a3e,
+        0 0 25px #7a7a7a3e,
+        0 0 50px #7a7a7a3e,
+        0 0 50px #7a7a7a3e;
+}
+
+.loginBtn {
+
+
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #000000;
+    position: absolute;
+    right: 4%;
+    box-shadow: 0 0 5px 4px #00000017;
+    background-color: #ffffff40;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loginBtn i {
+    font-size: x-large;
+}
+
+.loginArea {
+    position: fixed;
+    right: 0;
+    width: 25%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.menu-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10%;
+    top: 15%;
+
+}
+
+
+.menu-btns ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btns li {
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    padding: 3px;
+    border-radius: 5px;
+    transition: .2s;
+
+}
+
+.menu-btns a {
+    color: #7a7a7a;
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    display: block;
+    white-space: nowrap;
+    margin-left: 7px;
+    z-index: 200;
+
+}
+
+.line {
+    height: 0;
+    border: solid 2.5px #7a7a7a;
+    width: 500px;
+    position: absolute;
+    bottom: -5px;
+    left: 2%;
+    transition: .1s, height .1s ease .1s;
+    border-radius: 5px;
+}
+
+#home {
+    right: 100%;
+}
+
+#aboutus {
+    right: 70%;
+}
+
+
+#findcars {
+    right: 50%;
+}
+
+#contactus {
+    right: 20%;
+
+}
+
+.menu-btns li:hover .line {
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 0 5px 4px #00000017;
+}
+
+.cart {
+    font-size: xx-large;
+    position: relative;
+    right: 150px;
+    color: #4a00ca;
+    outline: none;
+    border: none;
+    background-color: #00000000;
+}
+
+
+.details {
+    height: 60%;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    left: -5%;
+}
