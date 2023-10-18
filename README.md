@@ -4,9 +4,9 @@
 
 1) Download this(ONLINECARBOOKING) project > extract zip file if you downloaded using GUI.
 
-2) Download xampp from here(offcial line) then install it: ```https://www.apachefriends.org/download.html```
+2) Download xampp from here(offcial link) then install it: ```https://www.apachefriends.org/download.html```
 
-3) open control panel and start Apache & MySQL server.
+3) open xampp's control panel and start Apache & MySQL server.
 
 4) Open xampp's admin panel: ```http://localhost/phpmyadmin``` (This url may different according to your system).
 
