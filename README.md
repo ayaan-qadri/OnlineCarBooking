@@ -20,5 +20,5 @@
 
 <h5>Admin credentials:</h5>
 
-Username: ```# p3ntw0lf    ```
-Password: ```# p3ntw0lf@github    ```
+Username: ```p3ntw0lf```
+Password: ```p3ntw0lf@github```
