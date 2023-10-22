@@ -9,8 +9,8 @@
 - [About this project](#-about-this-project)
 - [Features](#%EF%B8%8F-features)
 - [Tech stack](#--tech-stack)
+- [Installation Instructions](#-installation-instructions)
 - [Working Demo](#%EF%B8%8F-working-demo)
-- [Usage Instructions](#-usage-instructions)
 - [References](#-references)
 - [Contributors](#-contributors)
 
@@ -46,37 +46,7 @@ Equipped with a **user-friendly interface** and **multiple brands** to select fr
 - **XAMPP**
 </details>
 
-## 🕹️ Working demo 
-
-- Opening main.php leads to the home page with options to ***Login*** or browse the site via the ***Menu***.
-
-<img src="Readme-images/landing_page.png" alt="Home page" height=240px width=480px>
-
-- Clicking on ***Find Cars*** inside ***Menu*** leads to the page with all the available brands.
-
-<img src="Readme-images/brands_list_page.png" alt="Brands list" height=200px width=400px>
-
-- Clicking on ***Any Brand*** (eg. Mahindra) leads to the page with all the available models of that brand.
-
-<img src="Readme-images/cars_list_page.png" alt="Models list" height=200px width=460px>
-
-- This list contains all the required details for each model listed next to a picture of the model.
-
-- Clicking on ***Book Now*** in any model opens a popup to enter the details of the customer.
-
-<img src="Readme-images/book_car.png" alt="Booking form" height=200px width=480px>
-
-- **!** Note that you *need to be logged in* to book a car. (You can login by clicking on the ***profile icon on the top right corner*** of the page)
-
-- You can contact us by clicking on ***Contact Us*** in the ***Menu*** (or) on the sidebar.
-
-<img src="Readme-images/contact_us_page.png" alt="Contact Us" height=240px width=430px>
-
-- You can also use the ***footer*** to navigate through the website, check out our social media handles and contact us.
-
-<img src="Readme-images/footer.png" alt="Footer" height=80px width=340px>
-
-## 📝 Usage instructions
+## 📝 Installation instructions
 
 1. Download this project and extract the zip file. (or) Clone this repository using the following command.
 
@@ -109,6 +79,37 @@ Type ```http://localhost/onlinecarbooking/admin.php``` in the browser.
     
     Password: ```p3ntw0lf@github```
 
+## 🕹️ Working demo 
+
+- Opening main.php leads to the home page with options to ***Login*** or browse the site via the ***Menu***.
+
+<img src="Readme-images/landing_page.png" alt="Home page" height=240px width=480px>
+
+- Clicking on ***Find Cars*** inside ***Menu*** leads to the page with all the available brands.
+
+<img src="Readme-images/brands_list_page.png" alt="Brands list" height=200px width=400px>
+
+- Clicking on ***Any Brand*** (eg. Mahindra) leads to the page with all the available models of that brand.
+
+<img src="Readme-images/cars_list_page.png" alt="Models list" height=200px width=460px>
+
+- This list contains all the required details for each model listed next to a picture of the model.
+
+- Clicking on ***Book Now*** in any model opens a popup to enter the details of the customer.
+
+<img src="Readme-images/book_car.png" alt="Booking form" height=200px width=480px>
+
+- **!** Note that you *need to be logged in* to book a car. (You can login by clicking on the ***profile icon on the top right corner*** of the page)
+
+- You can contact us by clicking on ***Contact Us*** in the ***Menu*** (or) on the sidebar.
+
+<img src="Readme-images/contact_us_page.png" alt="Contact Us" height=240px width=430px>
+
+- You can also use the ***footer*** to navigate through the website, check out our social media handles and contact us.
+
+<img src="Readme-images/footer.png" alt="Footer" height=80px width=340px>
+
 ## 📰 References
 
 ## 👩🏻‍🤝‍🧑🏻 Contributors
+
