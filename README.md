@@ -1,8 +1,18 @@
-<h1 align=center>Online Car Booking</h1>
+<h1 align=center>Online Car Booking 🚗</h1>
 
 <p align=center>
-    <h4 align=center>Your dream car, just a click away 🚗</h4>
+    <h4 align=center>Your dream car, just a click away !!</h4>
 </p>
+
+## Table of Contents
+
+- [About this project](#-about-this-project)
+- [Features](#%EF%B8%8F-features)
+- [Tech stack](#--tech-stack)
+- [Working Demo](#%EF%B8%8F-working-demo)
+- [Usage Instructions](#-usage-instructions)
+- [References](#-references)
+- [Contributors](#-contributors)
 
 ##  🚀 About this project
 
@@ -36,7 +46,7 @@ Equipped with a **user-friendly interface** and **multiple brands** to select fr
 - **XAMPP**
 </details>
 
-## 🕹️ Working demo
+## 🕹️ Working demo 
 
 - Opening main.php leads to the home page with options to ***Login*** or browse the site via the ***Menu***.
 
@@ -44,7 +54,7 @@ Equipped with a **user-friendly interface** and **multiple brands** to select fr
 
 - Clicking on ***Find Cars*** inside ***Menu*** leads to the page with all the available brands.
 
-<img src="Readme-images/brands_list_page.png" alt="Brands list" height=200px width=440px>
+<img src="Readme-images/brands_list_page.png" alt="Brands list" height=200px width=400px>
 
 - Clicking on ***Any Brand*** (eg. Mahindra) leads to the page with all the available models of that brand.
 
@@ -54,7 +64,7 @@ Equipped with a **user-friendly interface** and **multiple brands** to select fr
 
 - Clicking on ***Book Now*** in any model opens a popup to enter the details of the customer.
 
-<img src="Readme-images/book_car.png" alt="Booking form" height=240px width=480px>
+<img src="Readme-images/book_car.png" alt="Booking form" height=200px width=480px>
 
 - **!** Note that you *need to be logged in* to book a car. (You can login by clicking on the ***profile icon on the top right corner*** of the page)
 
@@ -98,3 +108,7 @@ Type ```http://localhost/onlinecarbooking/admin.php``` in the browser.
     Username: ```p3ntw0lf```
     
     Password: ```p3ntw0lf@github```
+
+## 📰 References
+
+## 👩🏻‍🤝‍🧑🏻 Contributors
