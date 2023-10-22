@@ -1,17 +1,20 @@
+<h1 align=center>Online Car Booking</h1>
+
 <p align=center>
-    <h1>Online Car Booking</h1>
-    <h3>Your dream car, just a click away.</h3>
+    <h4 align=center>Your dream car, just a click away 🚗</h4>
 </p>
 
-## About this project
+##  🚀 About this project
 
-This is a web application made to simplify the process of car booking for the customers. Equipped with a user-friendly interface and multiple brands to select from, this is the go-to website for buying your dream car.
+This is a web application made to **simplify the process of car booking** for the customers. 
 
-## Features
+Equipped with a **user-friendly interface** and **multiple brands** to select from, this is the go-to website for buying your dream car.
+
+## 🛠️ Features
 
 - **User-friendly** interface
 
-- **Responsive** design
+- **Responsive** design 
 
 - **Multiple brands** to select from
 
@@ -22,7 +25,7 @@ This is a web application made to simplify the process of car booking for the cu
 - **Admin panel** to manage the website (admin only).
 
 <details>
-<summary><h2>Tech Stack</h2></summary>
+<summary><h2> 📚 Tech Stack</h2></summary>
 
 - **HTML5**
 - **CSS3**
@@ -33,37 +36,37 @@ This is a web application made to simplify the process of car booking for the cu
 - **XAMPP**
 </details>
 
-## Working demo
+## 🕹️ Working demo
 
 - Opening main.php leads to the home page with options to ***Login*** or browse the site via the ***Menu***.
 
-![Home page](Readme_images/landing_page.png)
+<img src="Readme-images/landing_page.png" alt="Home page" height=240px width=480px>
 
 - Clicking on ***Find Cars*** inside ***Menu*** leads to the page with all the available brands.
 
-![Brands List](Readme_images/brands_list_page.png)
+<img src="Readme-images/brands_list_page.png" alt="Brands list" height=200px width=440px>
 
 - Clicking on ***Any Brand*** (eg. Mahindra) leads to the page with all the available models of that brand.
 
-![Models List](Readme_images/cars_list_page.png)
+<img src="Readme-images/cars_list_page.png" alt="Models list" height=200px width=460px>
 
 - This list contains all the required details for each model listed next to a picture of the model.
 
 - Clicking on ***Book Now*** in any model opens a popup to enter the details of the customer.
 
-- **!** Note that you *need to be logged in* to book a car. (You can login by clicking on the ***profile icon on the top right corner*** of the page)
+<img src="Readme-images/book_car.png" alt="Booking form" height=240px width=480px>
 
-![Booking Form](Readme_images/book_car.png)
+- **!** Note that you *need to be logged in* to book a car. (You can login by clicking on the ***profile icon on the top right corner*** of the page)
 
 - You can contact us by clicking on ***Contact Us*** in the ***Menu*** (or) on the sidebar.
 
-![Contact Us](Readme_images/contact_us_page.png)
+<img src="Readme-images/contact_us_page.png" alt="Contact Us" height=240px width=430px>
 
 - You can also use the ***footer*** to navigate through the website, check out our social media handles and contact us.
 
-![Footer](Readme_images/footer.png)
+<img src="Readme-images/footer.png" alt="Footer" height=80px width=340px>
 
-## Usage instructions
+## 📝 Usage instructions
 
 1. Download this project and extract the zip file. (or) Clone this repository using the following command.
 
@@ -90,8 +93,8 @@ Open your browser and type ```http://localhost/onlinecarbooking/main.php``` in t
 9. Visit [Admin panel](http://localhost/onlinecarbooking\main.php) **or** 
 Type ```http://localhost/onlinecarbooking/admin.php``` in the browser.
 
-
-<h5>Admin credentials:</h5>
-
-Username: ```p3ntw0lf```
-Password: ```p3ntw0lf@github```
+10. **Admin credentials:**
+    
+    Username: ```p3ntw0lf```
+    
+    Password: ```p3ntw0lf@github```
