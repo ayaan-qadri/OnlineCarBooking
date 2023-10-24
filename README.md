@@ -42,7 +42,6 @@ Equipped with a **user-friendly interface** and **multiple brands** to select fr
 - **JavaScript**
 - **PHP**
 - **MySQL**
-- **Bootstrap**
 - **XAMPP**
 </details>
 
